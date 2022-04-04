@@ -3,7 +3,7 @@ FROM python:3.7-slim
 WORKDIR /
 
 ADD requirements.txt /requirements.txt
-RUN mkdir /storage/ && pip install -r /requirements.txt
+RUN mkdir /storage/ && pip --no-cache-dir install -r /requirements.txt
 
 ADD redditdownloader /redditdownloader
 ADD Run.py /Run.py
