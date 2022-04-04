@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  redditdownloader:
+    build:
+      context: .
+    volumes:
+      - ./download:/download
+    ports:
+      - "7505:7505"
