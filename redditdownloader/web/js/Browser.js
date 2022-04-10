@@ -205,11 +205,11 @@ class MediaContainer extends React.Component {
 	handleKey(e){
 		if(!this.state.lightbox) return;
 		// right
-		if (e.keyCode === 39) {
+		if (e.keyCode === 39 ||e.keyCode === 68) {
 			this._next(e, 1)
 		}
 		// left
-		if (e.keyCode === 37) {
+		if (e.keyCode === 37 || e.keyCode === 65) {
 			this._next(e, -1)
 		}
 	}
