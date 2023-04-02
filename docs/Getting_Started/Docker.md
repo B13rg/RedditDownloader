@@ -33,6 +33,18 @@ docker run -p 127.0.0.1:7505:7505 -v ./data:/download -v ./config:/storage/confi
 
 There are two docker-compose files in this repository.
 `docker-compose-local.yml` builds the dockerfile locally and runs it.
+You can do this wil the following command:
+
+```bash
+docker-compose -f docker-compose-local.yml up --build --detach
+```
 
 `docker-compose.yml` pulls the latest public image, and runs that.
+You can do this with the following command:
+
+```bash
+docker-compose -f docker-compose.yml up --detach
+# or
+docker-compose up -d
+```
 
