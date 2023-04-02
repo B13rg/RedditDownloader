@@ -47,4 +47,3 @@ docker-compose -f docker-compose.yml up --detach
 # or
 docker-compose up -d
 ```
-
