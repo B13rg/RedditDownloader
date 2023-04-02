@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  redditdownloader:
+    build:
+      context: .
+    volumes:
+      - ./data:/download
+      - ./config:/storage/config
+    ports:
+      - "7505:7505"
