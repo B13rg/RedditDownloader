@@ -2,8 +2,7 @@ version: '3.8'
 
 services:
   redditdownloader:
-    build:
-      context: .
+    image: shadowmoose/redditdownloader:latest
     volumes:
       - ./data:/download
       - ./config:/storage/config
