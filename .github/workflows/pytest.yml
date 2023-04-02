@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - 'docs/**'
       - '*.md'
+  workflow_dispatch:
 #  schedule:
 #    - cron:  '0 8 * * *'
 
