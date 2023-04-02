@@ -1,5 +1,5 @@
 from sources import source
-from psaw import PushshiftAPI
+from pmaw import PushshiftAPI
 from static.settings import Setting
 from processing.wrappers.redditelement import RedditElement
 

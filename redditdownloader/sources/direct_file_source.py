@@ -1,6 +1,6 @@
 import re
 import csv
-from psaw import PushshiftAPI
+from pmaw import PushshiftAPI
 from sources.source import Source
 from processing.wrappers.redditelement import RedditElement
 from static.praw_wrapper import get_info

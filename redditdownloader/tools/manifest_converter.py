@@ -7,7 +7,7 @@ import gzip
 import json
 import argparse
 from static import settings
-from psaw import PushshiftAPI
+from pmaw import PushshiftAPI
 import html
 from processing.wrappers.redditelement import RedditElement
 import sql
